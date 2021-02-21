@@ -1,0 +1,25 @@
+@import './player';
+@import './song';
+@import './library';
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,p{
+    color: rgb(53, 53, 53);
+}   
+
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+h3,h4{
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+}
