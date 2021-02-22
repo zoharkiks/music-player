@@ -1,0 +1,28 @@
+nav {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    button {
+        background: transparent;
+        cursor: pointer;
+        border: 3px solid rgb(65, 65, 65);
+        padding: .5rem;
+        transition: all .3s ease;
+
+        &:hover {
+            background: rgb(65, 65, 65);
+            color: white;
+        }
+
+        &:active{
+            
+            transform: scale(.85);
+        }
+
+        &:focus{
+            outline: none;
+        }
+    }
+}   

@@ -7,9 +7,10 @@
     background: white;
     box-shadow: 2px 2px 50px gray;
     overflow: scroll;
-    
-
-    h2 {
+    transform: translateX(-100%);
+    transition: all .5s ease;
+    opacity: 0;
+        h2 {
         padding: 2rem;
     }
 }
@@ -26,6 +27,7 @@
 
     &:hover {
         background: rgb(222, 222, 255);
+        transition: 0.2s;
     }
 
 }
@@ -48,7 +50,7 @@
 }
 
 *::-webkit-scrollbar {
-    width: 5px;
+    width: 7.5px;
 }
 
 *::-webkit-scrollbar-track {
@@ -59,4 +61,14 @@
     background-color: rgba(155, 155, 155, 0.5);
     border-radius: 20px;
     border: transparent;
+}
+
+.selected{
+    background: rgb(165, 181, 228);
+    
+}
+
+.active-library{
+    transform: translateX(0);
+    opacity: 1;
 }
