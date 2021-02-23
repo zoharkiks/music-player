@@ -39,10 +39,18 @@
 input[type="range"]:focus {
     outline: none;
   }
-  input[type="range"]::-webkit-slider-thumb {
+
+input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 16px;
     width: 16px;
+    
+  }
+
+input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    background: transparent;
+    border: none;
     
   }
 
@@ -65,4 +73,14 @@ input[type="range"]:focus {
     left: 0;
     transform: translateX(0%);
     pointer-events: none;
+}
+
+
+@media screen and (max-width:768px){
+    .time-control{
+        width: 90%;
+    }
+    .play-control{
+        width: 60%;
+    }
 }
