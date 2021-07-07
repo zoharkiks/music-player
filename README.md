@@ -7,7 +7,7 @@
 </p>
 
 ## Introduction 🚀
-To create a responsive music player with minimalistic design. Users can choose a particular song to play from the given library. 
+A responsive music player with minimalistic design. Users can choose a particular song to play from the given library. 
 
 <h3 align="left">Languages and Tools 💻 </h3>
 <p>
